@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JS-Start / Задача 5 - Перехват формы</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Задача 5 - Перехват формы</h1>
+<a id="back" href="../index.html">К списку задач</a>
+</header>
+<div class="form">
+<form action="#">
+<label>
+Текст
+<input type="text" placeholder="Введите текст">
+<!— При вводе текста в поле ввода (input) текст должен дублироваться в текстовый блок с id duplicateField —>
+</label>
+<button type="submit">
+Вывести текст в консоль и удалить из формы
+</button>
+</form>
+<hr>
+<p>Введенный текст:</p>
+<p id="duplicateField"></p>
+<!— В текстовый блок с id duplicateField дублируется текст введенный в поле ввода (input) —>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
